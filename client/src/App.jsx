@@ -10,9 +10,7 @@ import {
  * Set this to false to connect to your secure Node.js backend.
  */
 const USE_MOCK_BACKEND = false; 
-// For Localhost, use this:
-// Use environment variable if available, otherwise fall back to localhost
-const API_URL = import.meta.env.VITE_API_URL || 'https://task-manager-qeye.onrender.com';
+const API_URL ='https://task-manager-qeye.onrender.com';
 // --- UTILS ---
 const formatDate = (dateString) => {
   if (!dateString) return '';
