@@ -1,15 +1,4 @@
-# dependencies
 node_modules/
 client/node_modules/
+task-manager-backend/node_modules/
 
-# builds
-dist/
-client/dist/
-
-# env files
-.env
-.env.*
-
-# misc
-.vscode/
-.DS_Store
