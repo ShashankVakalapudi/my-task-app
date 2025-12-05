@@ -12,7 +12,7 @@ import {
 const USE_MOCK_BACKEND = false; 
 // For Localhost, use this:
 // Use environment variable if available, otherwise fall back to localhost
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://task-manager-qeye.onrender.com';
 // --- UTILS ---
 const formatDate = (dateString) => {
   if (!dateString) return '';
