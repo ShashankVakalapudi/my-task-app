@@ -10,7 +10,8 @@ import {
  * Set this to false to connect to your secure Node.js backend.
  */
 const USE_MOCK_BACKEND = false; 
-const API_URL = 'https://my-task-app-3dqn.onrender.com';
+// For Localhost, use this:
+const API_URL = 'http://localhost:5000/api';
 
 // --- UTILS ---
 const formatDate = (dateString) => {
