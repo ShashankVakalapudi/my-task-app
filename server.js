@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 // --- DATABASE CONNECT ---
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/professional_task_manager')
   .then(() => console.log("✅ Database Connected & Secure"))
   .catch(err => console.error("❌ DB Error:", err));
 
